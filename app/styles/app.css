@@ -4,11 +4,19 @@ body {
   color: #d34e50;
 }
 
+h1 {
+  color: #d34e50;
+}
+
+h2 {
+  color: #285a78;
+}
 
 .container {
   text-align: center;
   padding: 15px;
   width: 50%;
+  color: #887f8d;
 }
 
 a:hover {
