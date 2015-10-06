@@ -1,0 +1,16 @@
+body {
+  font-family: 'helvetica', sans serif;
+  background-color: #ecf0f1;
+}
+
+
+.container {
+  text-align: center;
+  padding: 15px;
+  width: 50%;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}

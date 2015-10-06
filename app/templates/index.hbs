@@ -1,10 +1,12 @@
 <h1>welcome to quora! we hope you learn a thing.</h1>
 
-<ul>
+
   {{#each model as |question|}}
-  <li>{{question.user}}</li>
+  <div class="well">
+  {{#link-to 'question' question.id}}{{question.ask}}{{/link-to}}
+  </div>
   {{/each}}
-</ul>
+
 
 
 {{new-question save="save"}}
